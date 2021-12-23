@@ -8,13 +8,13 @@ void main() {
       appBar: AppBar(
         title: Text(
           "เทคโนโลยีสารสนเทศ",
-          style: TextStyle(color: Colors.white,fontSize:23.0),
+          style: TextStyle(fontFamily: "Sarabun", color: Colors.white,fontSize:23.0),
         ),
         centerTitle: true,
         backgroundColor: Colors.purple,
       ),
       body: Center(
-        child: Text("MyApp"),
+        child: Image.asset("assets/images/thanos.png"),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text("Click"),
@@ -26,7 +26,7 @@ void main() {
           child: Center(
             child: Text(
               "วิทยาลัยเทคนิคตราด",
-              style: TextStyle(color: Colors.white, fontSize: 23.0),
+              style: TextStyle(fontFamily: "Sarabun", color: Colors.white, fontSize: 23.0),
             ),
           ),
           height: 40.0,
